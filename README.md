@@ -64,5 +64,107 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-FastGPU is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://fastgpu.co
+FastGPU provides a broker service offering live cloud GPU rental pricing and availability across major providers such as RunPod, Vast.ai, Lambda, AWS, Azure, and GCP. It aggregates real-time market data, enabling users to compare costs, reserve capacity, and integrate pricing into FinOps tools via a RESTful API and a streaming MCP endpoint. The platform also includes a workload matcher to align GPU resources with AI model requirements, supporting developers and enterprises in optimizing compute spend.
+
+**Areas:** Company · GPU · Cloud · Pricing · Artificial Intelligence
+
+## FastGPU on APIs.io
+
+Everything profiled for FastGPU is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/fastgpu/](https://apis.io/providers/fastgpu/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [FastGPU API](https://apis.io/apis/fastgpu/fastgpu-api/) — Live GPU cloud price comparison across the whole market, as a REST API and MCP server.
+- [FastGPU Matching API](https://apis.io/apis/fastgpu/fastgpu-matching-api/) — Match an AI workload to the cheapest live GPU that can run it. No key required.
+- [FastGPU Prices API](https://apis.io/apis/fastgpu/fastgpu-prices-api/) — Live GPU rental prices, cheapest first. /api/v1/gpus needs no key.
+- [FastGPU Router API](https://apis.io/apis/fastgpu/fastgpu-router-api/) — Launch and manage GPUs through FastGPU (API key required).
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [FastGPU API Rules](https://apis.io/rules/fastgpu/fastgpu-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Fastgpu Domain Security](https://apis.io/security/fastgpu/fastgpu-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Fastgpu Plans Pricing](https://apis.io/plans/fastgpu/fastgpu-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://fastgpu.co)
+- [Documentation](https://fastgpu.co/docs)
+- [API reference](https://fastgpu.co/openapi.json)
+- [Pricing](https://fastgpu.co/pricing)
+- [Support](https://fastgpu.co/support)
+- [Blog](https://fastgpu.co/blog)
+- [Terms of service](https://fastgpu.co/legal/terms)
+- [Privacy policy](https://fastgpu.co/legal/privacy)
+
+## API Evangelist rating
+
+**Kin Score 36.6** — thin · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.7 |
+| Contract quality | 50.6 |
+| Contract governance | 19.7 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 23.8 |
+| Access clarity | 52.6 |
+
+**Agent readiness 29.3** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | near-conformant (partial credit) |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 17.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/fastgpu/](https://apis.io/providers/fastgpu/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for FastGPU: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/fastgpu/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
